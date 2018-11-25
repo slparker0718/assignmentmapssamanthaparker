@@ -12,7 +12,6 @@ import java.util.Date;
 
 public class MapBroadcastReceiver extends BroadcastReceiver
 {
-    private Integer CHANNEL_ID = 1;
     private String CHANNEL_NAME = "Maps";
     private String CHANNEL_DESCRIPTION = "Map Notifications";
     private static final String TAG = "MapBroadcastReceiver";
@@ -41,7 +40,5 @@ public class MapBroadcastReceiver extends BroadcastReceiver
 
         notificationManager.createNotificationChannel(notificationChannel);
         notificationManager.notify(channel_id, builder.build());
-        Log.d(TAG, "Notification id: " + channel_id + "for this loc: " + location);
-
     }
 }
