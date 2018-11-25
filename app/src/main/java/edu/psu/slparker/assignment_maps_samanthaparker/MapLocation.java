@@ -2,17 +2,17 @@ package edu.psu.slparker.assignment_maps_samanthaparker;
 
 import java.io.Serializable;
 
-public class Maps implements Serializable{
+public class MapLocation implements Serializable{
 
     private String location;
     private Double latitude;
     private Double longitude;
 
-    public Maps()
+    public MapLocation()
     {
     }
 
-    public Maps(String location, Double latitude, Double longitude) {
+    public MapLocation(String location, Double latitude, Double longitude) {
         this.location = location;
         this.latitude = latitude;
         this.longitude = longitude;

@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <receiver android:name=".MapBroadcastReceiver">
+            <intent-filter>
+                <action android:name="edu.psu.slparker.assignment_maps_samanthaparker.action.NEW_MAP_BROADCAST" />
+            </intent-filter>
+        </receiver>
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBWCRpYoBUPEKiArw80TBYGwM2AD4meV4Y" />
@@ -25,6 +29,7 @@
             android:name="org.apache.http.legacy"
             android:required="false" />
 
+        <activity android:name=".MapActivity"></activity>
     </application>
 
 </manifest>

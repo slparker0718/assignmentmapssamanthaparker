@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">assignment-maps-samanthaparker</string>
+    <string name="editText_latitude">Latitude</string>
+    <string name="editText_longitude">Longitude</string>
+    <string name="editText_location">Location</string>
+    <string name="editText_description">Description</string>
+    <string name="button_submit">Submit</string>
 </resources>
