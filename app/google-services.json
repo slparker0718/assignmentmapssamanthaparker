@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "163710062730",
+    "firebase_url": "https://assignment-maps-samanthaparker.firebaseio.com",
+    "project_id": "assignment-maps-samanthaparker",
+    "storage_bucket": "assignment-maps-samanthaparker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163710062730:android:8963580a17387e6b",
+        "android_client_info": {
+          "package_name": "edu.psu.slparker.assignment_maps_samanthaparker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163710062730-l5aohshv0uh67ef3pb35j6ipsv1h4sc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjqmVZ4HVYSQ4meKF1-TTDZcWcMVGTl1E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
